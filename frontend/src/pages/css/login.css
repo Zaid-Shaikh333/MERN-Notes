@@ -1,0 +1,65 @@
+.login{
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 30vw;
+}
+.register{
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 30vw;
+}
+.login h3{
+    text-align: center;
+    padding-bottom: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 1px solid rgb(22, 221, 171);
+}
+.register h3{
+    text-align: center;
+    padding-bottom: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 1px solid rgb(22, 221, 171);
+}
+.form{
+    padding: 1rem;
+    box-shadow: 0 0 5px 0 black;
+}
+.form form{
+    margin: .5rem;
+}
+.input{
+    margin: 1.5rem .5rem;
+    text-align: center;
+}
+.textfield{
+    width: 75%;
+}
+.name-icon {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.email-icon{
+    margin-top: 20px;
+    margin-right: 10px;
+} 
+.password-icon{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.no-account{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.no-account .register-link{
+    text-decoration: none;
+    color: blue;
+}
+@media only screen and (max-width: 768px){
+    .login{
+        margin: auto;
+        margin-top: 3rem;
+        width: 60vw;
+    }
+}
